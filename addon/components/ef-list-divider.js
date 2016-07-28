@@ -1,7 +1,9 @@
-import Ember from 'ember';
 import Component from 'ember-forge-ui/components/ef-list-divider';
+import Ember from 'ember';
 
-const computed = Ember.computed;
+const {
+  get
+} = Ember;
 
 /**
  * @module
