@@ -1,7 +1,7 @@
 {
   "name": "ember-forge-ui-bootstrap4-polyfill",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0",
+  "description": "Provides remaining ember-forge-ui capabilities that ember-forge-ui-bootstrap4 was unable to",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,18 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "bugs": "https://github.com/ember-forge/ember-forge-ui-bootstrap4-polyfill/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ember-forge/ember-forge-ui-bootstrap4-polyfill.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "contributors": [
+    "Jeremy Brown <jeremy@notmessenger.com> (http://www.notmessenger.com)",
+    "Michael Carroll (https://github.com/juwara0)"
+  ],
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -43,7 +50,14 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-forge-ui",
+    "Twitter Bootstrap",
+    "UI",
+    "UI components",
+    "form",
+    "list",
+    "nav"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
