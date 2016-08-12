@@ -1,6 +1,6 @@
 {
   "name": "ember-forge-ui-bootstrap4-polyfill",
-  "version": "0.0",
+  "version": "0.0.0",
   "description": "Provides remaining ember-forge-ui capabilities that ember-forge-ui-bootstrap4 was unable to",
   "directories": {
     "doc": "doc",
